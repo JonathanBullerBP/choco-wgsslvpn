@@ -40,17 +40,17 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <projectUrl>https://software.watchguard.com/SoftwareDownloads?current=true&familyId=a2R2A000001YGvTUAW</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
-    <iconUrl>https://rawcdn.githack.com/JonathanBullerBP/choco-wgsslvpn/f41cd03f5c25710edb54f249f7b5caafe97bf0a9/wg-logo.jpg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/JonathanBullerBP/choco-wgsslvpn@latest/wg-logo.png</iconUrl>
     <!-- <copyright>Year Software Vendor</copyright> -->
     <!-- If there is a license Url available, it is required for the community feed -->
-    <!-- <licenseUrl>Software License Location __REMOVE_OR_FILL_OUT__</licenseUrl>
+    <licenseUrl>https://wgidb2cproduction.blob.core.windows.net/accountagreements/v1/eula.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <!--<projectSourceUrl>Software Source Location - is the software FOSS somewhere? Link to it with this</projectSourceUrl>-->
     <docsUrl>https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/Fireware/mvpn/ssl/mvpn_ssl_client-install_c.html</docsUrl>
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>wgsslvpn SPACE_SEPARATED</tags>
-    <summary>__REPLACE__</summary>
+    <tags>vpn watchguard firebox mobile ssl watch guard</tags>
+    <summary>WatchGuard Mobile VPN with SSL </summary>
     <description>The WatchGuard Mobile VPN with SSL client is a software application that is installed on a remote computer. The client makes a secure connection from the remote computer to your protected network through an unsecured network, such as the Internet. The Mobile VPN client uses Transport Layer Security (TLS) to secure the connection. TLS is the successor to Secure Sockets Layer (SSL).</description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->
